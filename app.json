@@ -1,27 +1,33 @@
 {
   "expo": {
-    "name": "projo-mobile",
-    "slug": "projo-mobile",
+    "name": "personnel-mobile",
+    "slug": "personnel-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "extra": {
+      "supabaseUrl": "https://supabase.com/dashboard/project/dzzlpnbutycwaehnrzvj",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR6emxwbmJ1dHljd2FlaG5yenZqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyMTIxNjksImV4cCI6MjA4MDc4ODE2OX0.VbkGGyvLyPEGEvHgew7SLzs1Furz_PJm_Fs2YkUgVsE"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.personnelmobile"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "package": "com.yourcompany.personnelmobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
